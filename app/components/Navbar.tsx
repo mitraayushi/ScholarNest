@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="text-2xl font-bold text-green-400">ScholarNest</div>
         <nav className="flex space-x-6 items-center text-sm">
           <Link href="/" className="text-gray-300 hover:text-green-400 transition">Home</Link>
-          <Link href="/submit" className="text-gray-300 hover:text-green-400 transition">Submit Request</Link>
+          <Link href="/Submit" className="text-gray-300 hover:text-green-400 transition">Submit Request</Link>
           <Link href="/investor" className="text-gray-300 hover:text-green-400 transition">Investor Dashboard</Link>
           <ConnectWalletButton/>
         </nav>
