@@ -7,7 +7,7 @@ import { WalletProvider } from "@/app/components/ui/WalletProvider";
 import { Toast } from "@/app/components/ui/toast";
 import { WrongNetworkAlert } from "@/app/components/ui/WrongNetworkAlert";
 import { ReactQueryProvider } from "@/app/components/ui/ReactQueryProvider";
-import { Toaster } from "sonner";
+import { Toaster } from "@/app/components/ui/toaster";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,10 +36,11 @@ export default function RootLayout({
       >
         <WalletProvider>
           <ReactQueryProvider>
-        <Navbar/>
-        {children}
-        <Footer/>
-        </ReactQueryProvider>
+            <Navbar />
+            {children}
+            <Toaster />
+            <Footer />
+          </ReactQueryProvider>
         </WalletProvider>
       </body>
     </html>
