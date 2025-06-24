@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import ConnectWalletButton from "./ConnectWalletButton";
+import { WalletSelector } from "./ui/WalletSelector";
 
 export default function Navbar() {
   return (
@@ -11,7 +12,8 @@ export default function Navbar() {
           <Link href="/" className="text-gray-300 hover:text-green-400 transition">Home</Link>
           <Link href="/Submit" className="text-gray-300 hover:text-green-400 transition">Submit Request</Link>
           <Link href="/investor" className="text-gray-300 hover:text-green-400 transition">Investor Dashboard</Link>
-          <ConnectWalletButton/>
+          {/* <ConnectWalletButton/> */}
+          <WalletSelector/>
         </nav>
       </div>
     </header>
