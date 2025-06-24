@@ -1,3 +1,20 @@
+
+
+## 🎓 ScholarNest
+
+**ScholarNest** is a decentralized platform that empowers students by enabling crypto-backed educational funding through smart contracts on the blockchain.
+
+Built on the Aptos network using the Move programming language, ScholarNest connects students and donors transparently. Donors can fund students directly using the native **ScholarNestToken**, and smart contracts ensure that funds are released based on academic milestones.
+
+### ✨ Key Highlights:
+
+* ✅ Smart contract–driven scholarship disbursement
+* 🔐 Transparent and traceable donations via blockchain
+* 🎯 Funding linked to academic performance and milestones
+* 🌍 Accessible globally for both students and donors
+
+ScholarNest's mission is to **eliminate financial barriers to education** and create a trustless, open ecosystem where education meets Web3.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
